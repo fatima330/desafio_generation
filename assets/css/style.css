@@ -1,0 +1,22 @@
+#logo{
+    font-size: 40px;
+    background-color: beige;
+}
+
+.header_content{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color:wheat;
+}
+
+.footer{
+    background-color: burlywood;
+}
+
+.rodape{
+    background-color:peachpuff;
+}
