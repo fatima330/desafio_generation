@@ -1,22 +1,95 @@
-#logo{
-    font-size: 40px;
-    background-color: beige;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+outline: none;
+font-weight: 300;
 }
 
-.header_content{
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-between;
+#logo {
+font-size: 30px;
+color: rgb(100, 55, 142);
 }
 
-.menu{
-    background-color:wheat;
+.header_content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem
 }
 
-.footer{
-    background-color: burlywood;
+.menu {
+display: flex;
+gap: 2rem;
+list-style: none;
+padding: 5px;
+margin: 10px;
 }
 
-.rodape{
-    background-color:peachpuff;
+.menu li a {
+text-decoration: none;
+color: #333;
+}
+
+.bem_vindo {
+display: flex;
+flex-direction: column;
+background-color: rgb(207, 202, 212);
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 40px;
+margin-bottom: 2rem;
+}
+
+.bem_vindo h1 {
+color: rgb(100, 55, 142);
+}
+
+.bem_vindo p {
+font-size: 20px;
+font: bold;
+}
+
+.bem_vindo button {
+display: flex;
+align-items: center;
+gap: 8px;
+background-color: rgb(117, 75, 157);
+border: none;
+border-radius: 5px;
+font-size: 15px;
+color: white;
+font: bold;
+padding: 10px;
+}
+
+#servicos {
+text-align: center;
+}
+
+.servicos {
+display: flex;
+gap: 2rem;
+justify-content: center;
+list-style: none;
+}
+
+.servicos li {
+background-color: rgb(223, 213, 213);
+padding: 1rem;
+border-radius: 5px;
+width: 300px;
+}
+
+h2 {
+font-size: 25px;
+font-weight: bold;
+}
+
+p {
+font-size: 17px;
+color: grey;
+font: bold;
 }
