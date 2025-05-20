@@ -35,12 +35,13 @@ color: #333;
 .bem_vindo {
 display: flex;
 flex-direction: column;
-background-color: rgb(207, 202, 212);
+background-color: rgb(219, 213, 224);
 align-items: center;
 justify-content: center;
 text-align: center;
-padding: 40px;
+padding: 50px;
 margin-bottom: 2rem;
+gap: 10px;
 }
 
 .bem_vindo h1 {
@@ -61,8 +62,8 @@ border: none;
 border-radius: 5px;
 font-size: 15px;
 color: white;
-font: bold;
 padding: 10px;
+margin: 15px;
 }
 
 #servicos {
@@ -92,4 +93,12 @@ p {
 font-size: 17px;
 color: grey;
 font: bold;
+}
+
+#contato{
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+margin: 20px;
 }
