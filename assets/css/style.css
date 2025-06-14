@@ -5,18 +5,25 @@ box-sizing: border-box;
 text-decoration: none;
 outline: none;
 font-weight: 300;
+font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
 }
 
 #logo {
 font-size: 30px;
-color: rgb(100, 55, 142);
+color: rgb(145, 99, 187);
+font-weight: bold;
 }
 
 .header_content {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 1rem
+padding: 0.80rem
 }
 
 .menu {
@@ -25,44 +32,58 @@ gap: 2rem;
 list-style: none;
 padding: 5px;
 margin: 10px;
+font-weight: bold;
 }
 
 .menu li a {
 text-decoration: none;
 color: #333;
+margin: 0 15px;
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+color: rgb(145, 99, 187);
+text-decoration: underline;
 }
 
 .bem_vindo {
 display: flex;
 flex-direction: column;
-background-color: rgb(207, 202, 212);
+background-color: rgb(235, 227, 241);
 align-items: center;
 justify-content: center;
 text-align: center;
-padding: 40px;
+padding: 50px;
 margin-bottom: 2rem;
+gap: 10px;
+font-weight: bold;
 }
 
 .bem_vindo h1 {
-color: rgb(100, 55, 142);
+color: rgb(145, 99, 187);
+font-weight: 600;
 }
 
 .bem_vindo p {
 font-size: 20px;
 font: bold;
+color: #222;
+padding: 10px;
 }
 
 .bem_vindo button {
 display: flex;
 align-items: center;
 gap: 8px;
-background-color: rgb(117, 75, 157);
+background-color: rgb(145, 99, 187);
 border: none;
 border-radius: 5px;
 font-size: 15px;
 color: white;
-font: bold;
 padding: 10px;
+margin: 15px;
 }
 
 #servicos {
@@ -77,19 +98,135 @@ list-style: none;
 }
 
 .servicos li {
-background-color: rgb(223, 213, 213);
+background-color: rgb(235, 227, 241);
 padding: 1rem;
 border-radius: 5px;
-width: 300px;
+width: 350px;
+margin: 1rem;
 }
 
 h2 {
-font-size: 25px;
+font-size: 20px;
+font-weight: bold;
+margin: 8px ;
+}
+
+h3 {
+font-size: 15px;
+margin: 15px;
 font-weight: bold;
 }
 
 p {
-font-size: 17px;
-color: grey;
-font: bold;
+font-size: 14px;
+color: rgb(112, 112, 112);
 }
+
+#contato{
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+margin: 20px;
+gap: 2rem;
+}
+
+button {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 35px;       
+padding: 0 10px;  
+margin: 10px;
+font-size: 14px;
+border-radius: 4px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    width: 400px;
+    padding: 20px;
+    background-color: #f7f3f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+
+}
+
+input, textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 100px; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical; 
+}
+
+button {
+    border-radius: 6px;
+    background-color: rgb(145, 99, 187);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    padding: 40px 60px;
+    background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer .rodape {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px; /* Espaço entre as colunas quando a tela ficar menor */
+    align-items: flex-start;
+}
+
+.footer .rodape section {
+    flex: 1;
+    min-width: 180px;
+}
+
+.footer h3 {
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.footer li {
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+    padding-top: 15px;
+}
+
+
